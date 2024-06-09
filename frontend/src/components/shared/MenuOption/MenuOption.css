@@ -1,0 +1,11 @@
+.menu-option-container {
+	text-align: center;
+	background-color: #228cf6;
+	padding: 1.5vh 4vw;
+	border-bottom: 1px solid rgb(197, 197, 197);
+	cursor: pointer;
+}
+
+.menu-option-container:hover {
+	background-color: #69b0f6;
+}

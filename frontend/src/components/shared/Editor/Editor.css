@@ -1,0 +1,7 @@
+.code-editor {
+    font-size: 16rem;
+}
+
+.CodeMirror-lines {
+    padding: 3vh 0 20vh; /* Vertical padding around content */
+}

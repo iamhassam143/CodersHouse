@@ -1,0 +1,84 @@
+.card {
+    background: #1d1d1d;
+    padding: 20px;
+    border-radius: 10px;
+    width: 18vw;
+    height: 30vh;
+}
+
+.card h3 {
+    /* overflow: hidden; */
+    width: inherit;
+}
+
+.speakers {
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 20px 0;
+}
+
+.avatars img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #20bd5f;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1d1d1d;
+}
+
+.avatars img:last-child {
+    top: 20px;
+    left: 20px;
+}
+
+.spekersNames {
+    margin-left: 10px;
+}
+
+.spekersNames span {
+    padding-bottom: 5px;
+    display: inline-block; 
+    margin-right: 5px;
+}
+
+.peopleCount {
+    text-align: right;
+    margin-top: 6vh;
+}
+
+.peopleCount span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.singleSpeaker .avatars img {
+    position: initial;
+}
+
+.singleSpeaker .names {
+    margin-left: 20px;
+}
+
+.roomCardTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.roomCardTop img {
+    width: 2vw;
+    height: 4vh;
+    cursor: pointer;
+}
+
+.roomCardTop h3 {
+    cursor: pointer;
+    padding: 0 0.5vw;
+}
+
+.roomCardTop h3:hover {
+    border-bottom: 3px solid #0077ff;
+}

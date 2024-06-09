@@ -1,0 +1,13 @@
+.menu-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.traingle {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-bottom: 20px solid #228cf6;
+}

@@ -1,0 +1,1 @@
+prine("hello")
